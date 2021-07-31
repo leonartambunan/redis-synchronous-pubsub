@@ -1,5 +1,6 @@
 # Redis Synchronous Pubsub Library
 
+## What is it ?
 This is a Java Web Component (@WebListener) to send message to Redis channel and using latch to read the response from another channel.
 
 
@@ -16,7 +17,7 @@ This is a Java Web Component (@WebListener) to send message to Redis channel and
                                                                              \\======================//
 ```                                                                             
 
-# How to Use
+## How to Use
 ```
 ....
 RedisProperty.hostname="localhost";
@@ -35,3 +36,15 @@ try {
 ....
 
 ```
+
+## Dependencies
+
+* javax.enterprise:cdi-api:2.0.SP1
+* javax:javaee-web-api:7.0
+* org.apache.commons:commons-lang3:3.11
+* redis.clients:jedis:3.6.1
+* javax.servlet:servlet-api:2.3
+* org.slf4j:slf4j-api:1.7.32
+* com.googlecode.json-simple:json-simple:1.1.1
+
+
