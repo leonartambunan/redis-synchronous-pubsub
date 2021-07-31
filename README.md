@@ -4,16 +4,16 @@ This is a Java Web Component (@WebListener) to send message to Redis channel and
 
 
 ```
-                                                                                 //=====================\\
-                                                                                ||                      ||
+                                                                             //=====================\\
+                                                                             ||                      ||
 /=================================\                                          || o-----------------o  ||
 ||                                || ----- send request --------------->     || | CHANNEL_REQUEST |  ||
 || Your Java Web Application      ||                                         || o-----------------o  ||  <==== Another system to read CHANNEL_REQUEST and publish the response to CHANNEL_RESPONSE (something like https://github.com/leonartambunan/apachecamel-in-springboot)
 || (+ Redis-Synchronous-PubSub)   ||                                         || o-----------------o  ||
 ||                                || <-------- you will get response ---     || | CHANNEL_RESPONSE|  ||
 \=================================/                                          || o-----------------o  ||
-                                                                                ||                      ||
-                                                                                \\======================//
+                                                                             ||                      ||
+                                                                             \\======================//
 ```                                                                             
 
 # How to Use
