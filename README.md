@@ -1,7 +1,7 @@
 # Redis Synchronous Pubsub Library
 
 ## What is it ?
-This is a Java Web Component (@WebListener) to send message to Redis channel and using latch to read the response from another channel.
+This is a Java Web Component (@WebListener) to send message to Redis channel (topic) and using latch to read the response from another channel.
 
 
 ```
